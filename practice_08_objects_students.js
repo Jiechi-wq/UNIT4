@@ -33,27 +33,33 @@ const movie = {
   director: "Christopher Nolan",
   rating: "PG-13",
   runtime: 169,
+  over120: true,
 };
 
-// TODO 1: Print the movie title
-// console.log(...)
 
+
+
+
+/* // TODO 1: Print the movie title
+// console.log(...)
+console.log("Title:",movie.title);
 // TODO 2: Print the director's name
 // console.log(...)
-
+console.log("director:",movie.director);
 // TODO 3: Print true/false — is runtime over 120?
 // console.log(...)
-
+console.log("over120:",movie.over120); */
 // TODO 4: Add a `watched` property set to true
 // movie.??? = ???
-
+movie.watched = true
 // TODO 5: Print each key-value pair
-// console.log("Title:", ...)
-// console.log("Year:", ...)
-// console.log("Director:", ...)
-// console.log("Rating:", ...)
-// console.log("Runtime:", ...)
-// console.log("Watched:", ...)
+/* console.log("Title:", movie.title)
+console.log("Year:", movie.year)
+console.log("Director:", movie.director)
+console.log("Rating:", movie.rating)
+console.log("Runtime:", movie.runtime)
+console.log("Watched:", movie.watched) */
+
 
 // =================================================================
 // PROBLEM 2 — Build Your Own Object
@@ -68,12 +74,28 @@ const movie = {
 
 function createStudent(name, grade, gpa) {
   // TODO: return an object with name, grade, gpa, and isHonors
+  if(gpa >= 3.5){
+        return{
+      name: name,
+      grade: grade,
+      gpa: gpa,
+      isHonors: true
+  } 
+}
+  else{
+    return{
+      name: name,
+      grade: grade,
+      gpa: gpa,
+      isHonors: false
+    }
+   }
 }
 
 // Test your function — uncomment when ready:
 // console.log("\n--- Problem 2 ---");
-// console.log(createStudent("Alex", 11, 3.7));
-// console.log(createStudent("Sam", 10, 2.9));
+console.log(createStudent("Alex", 11, 3.7));
+console.log(createStudent("Sam", 10, 2.9));
 
 // =================================================================
 // PROBLEM 3 — Searching an Array of Objects
