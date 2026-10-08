@@ -113,6 +113,25 @@ function findByName(students, targetName) {
   // Hint: .find() returns undefined if nothing matches — convert that to null using || (or) operator
 }
 console.log("CHANGE YOUR PASSWORD")
+console.log("CHANGE YOUR PASSWORD")
+console.log("CHANGE YOUR PASSWORD")
+console.log("CHANGE YOUR PASSWORD")
+console.log("CHANGE YOUR PASSWORD")
+console.log("CHANGE YOUR PASSWORD")
+console.log("CHANGE YOUR PASSWORD")
+console.log("CHANGE YOUR PASSWORD")
+console.log("CHANGE YOUR PASSWORD")
+console.log("CHANGE YOUR PASSWORD")
+console.log("CHANGE YOUR PASSWORD")
+console.log("CHANGE YOUR PASSWORD")
+console.log("CHANGE YOUR PASSWORD")
+console.log("CHANGE YOUR PASSWORD")
+console.log("CHANGE YOUR PASSWORD")
+console.log("CHANGE YOUR PASSWORD")
+console.log("CHANGE YOUR PASSWORD")
+console.log("CHANGE YOUR PASSWORD")
+console.log("CHANGE YOUR PASSWORD")
+console.log("CHANGE YOUR PASSWORD")
 // Test your function — uncomment when ready:
 // console.log("\n--- Problem 3 ---");
 // console.log(findByName(students, "ChenZee"));
