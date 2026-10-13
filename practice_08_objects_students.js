@@ -111,27 +111,14 @@ console.log(createStudent("Sam", 10, 2.9)); */
 function findByName(students, targetName) {
   // TODO: use .find() to search by name
   // Hint: .find() returns undefined if nothing matches — convert that to null using || (or) operator
+  let i = 0;
+  const name = students.find(students => students > 0);
+  while(students>i){
+    i = i + 1;
+  }
+  return name
 }
-console.log("CHANGE YOUR PASSWORD")
-console.log("CHANGE YOUR PASSWORD")
-console.log("CHANGE YOUR PASSWORD")
-console.log("CHANGE YOUR PASSWORD")
-console.log("CHANGE YOUR PASSWORD")
-console.log("CHANGE YOUR PASSWORD")
-console.log("CHANGE YOUR PASSWORD")
-console.log("CHANGE YOUR PASSWORD")
-console.log("CHANGE YOUR PASSWORD")
-console.log("CHANGE YOUR PASSWORD")
-console.log("CHANGE YOUR PASSWORD")
-console.log("CHANGE YOUR PASSWORD")
-console.log("CHANGE YOUR PASSWORD")
-console.log("CHANGE YOUR PASSWORD")
-console.log("CHANGE YOUR PASSWORD")
-console.log("CHANGE YOUR PASSWORD")
-console.log("CHANGE YOUR PASSWORD")
-console.log("CHANGE YOUR PASSWORD")
-console.log("CHANGE YOUR PASSWORD")
-console.log("CHANGE YOUR PASSWORD")
+
 // Test your function — uncomment when ready:
 // console.log("\n--- Problem 3 ---");
 // console.log(findByName(students, "ChenZee"));
