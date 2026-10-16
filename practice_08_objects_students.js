@@ -108,22 +108,18 @@ console.log(createStudent("Sam", 10, 2.9)); */
 //   findByName(students, "ChenZee") → { name: "ChenZee", grade: 12, gpa: 3.5, isHonors: false }
 //   findByName(students, "Marcus")  → null
 
-function findByName(students, targetName) {
+/* function findByName(students, targetName) {
   // TODO: use .find() to search by name
   // Hint: .find() returns undefined if nothing matches — convert that to null using || (or) operator
-  if(targetName === students.name[1]){
-    return targetName
-  }
-  else{
-    return "null";
-    }
+  const name = students.find((student) => student.name === targetName || null);
+  return name
 }
 
 // Test your function — uncomment when ready:
 // console.log("\n--- Problem 3 ---");
 console.log(findByName(students, "ChenZee"));
 console.log(findByName(students, "Jane"));
-console.log(findByName(students, "Marcus"));
+console.log(findByName(students, "Marcus")); */
 
 // =================================================================
 // PROBLEM 4 — Roster Report
@@ -141,6 +137,9 @@ console.log(findByName(students, "Marcus"));
 function printRoster(students) {
   // TODO: loop through students with .forEach()
   // TODO: print each student in the format above
+  students.forEach(student => {console.log([student.grade], student.name, "- GPA:", student.gpa);
+    
+  });
 }
 
 // Test your function — uncomment when ready:
