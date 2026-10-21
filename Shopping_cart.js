@@ -23,8 +23,8 @@ const Meats = [
 
 
 function filter(cuts){
-    for(let i = 0; i < Meats.length; i++){
-        if(cuts.animal === "Cow"){
+    for(let i = 0; i <= Meats.length; i++){
+        if(cuts.animal[i] === "Cow"){
             return cuts
         }
 
