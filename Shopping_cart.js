@@ -21,13 +21,13 @@ const Meats = [
     {name: "Spare Ribs", animal: "Pig", cost: 3},  
 ];
 
-let item = [];
-let cost = 0;
 
-function filter(meat){
-    Meats.forEach(meat.animal => {
-        
-    });
+function filter(cuts){
+    for(let i = 0; i < Meats.length; i++){
+        if(cuts.animal === "Cow"){
+            return cuts
+        }
 
-
+    }
 }
+console.log(filter(Meats));
