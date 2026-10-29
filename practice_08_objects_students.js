@@ -138,7 +138,6 @@ function printRoster(students) {
   // TODO: loop through students with .forEach()
   // TODO: print each student in the format above
   students.forEach(student => {console.log([`Grade`, student.grade], student.name, "- GPA:", student.gpa);
-    
   });
 }
 

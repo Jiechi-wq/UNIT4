@@ -17,15 +17,16 @@ const Meats = [
     {name: "Lamb Thigh", animal: "Lamb", cost: 15},
     {name: "Lamb Chops", animal: "Lamb", cost: 15},
     {name: "Pork Chops", animal: "Pig", cost: 4},
-    {name: "Bacon", animal: "Pig", cost: 11},
+    {name: "Bacon", animal: "Pig", cost: 7},
     {name: "Spare Ribs", animal: "Pig", cost: 3},  
 ];
 
 
 function filter(cuts){
+    let cow = [];
     for(let i = 0; i <= Meats.length; i++){
         if(cuts.animal[i] === "Cow"){
-            return cuts
+            cow.push
         }
 
     }
