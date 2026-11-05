@@ -26,7 +26,6 @@ body {
   margin-bottom: 1rem;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ-XC20pEyvl-baEgltYLSy4EpaApkZGSzH7lrk9Uu7w&s=10");
   background-size: cover;
-  background-position: center;
   background-attachment: fixed;
 }
 .hero h1 {
